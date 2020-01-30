@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da48a882a43d5f7bfcca657b05dd869e",
+    "revision": "5aa56b5c93547530133d379f89ec580c",
     "url": "/evolveu-final-project-react-frontend/index.html"
   },
   {
-    "revision": "e7b8e7c37b336e6f3004",
-    "url": "/evolveu-final-project-react-frontend/static/css/main.b6f817da.chunk.css"
+    "revision": "0e1357d408312e7f78ce",
+    "url": "/evolveu-final-project-react-frontend/static/css/main.c228387a.chunk.css"
   },
   {
     "revision": "9150bada207c99faa74a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/evolveu-final-project-react-frontend/static/js/2.83dd1c1b.chunk.js.LICENSE"
   },
   {
-    "revision": "e7b8e7c37b336e6f3004",
-    "url": "/evolveu-final-project-react-frontend/static/js/main.94e09b26.chunk.js"
+    "revision": "0e1357d408312e7f78ce",
+    "url": "/evolveu-final-project-react-frontend/static/js/main.1093ec22.chunk.js"
   },
   {
     "revision": "c514486351e5812a898e",
