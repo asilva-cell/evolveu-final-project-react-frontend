@@ -1,0 +1,61 @@
+#root {
+	height: 100%;
+}
+.App {
+	overflow-y: scroll;
+	height: 100%;
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+.All-Icons {
+	display: flex;
+	justify-content: center;
+}
+
+.Icons {
+	height: 7.5vmin;
+	margin: 10px;
+	opacity: 0.5;
+	animation: Icons 3s infinite;
+	transform: rotateZ(45deg);
+	animation-direction: alternate;
+	fill: yellowgreen;
+}
+.Icons:hover {
+	width: 20%;
+	opacity: 1;
+	animation: Icons;
+	transform: rotateZ(0deg);
+}
+
+@keyframes Icons {
+	0% {
+		transform: rotateZ(0);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
+
+.App-header {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.dark {
+	background-color: #282c34;
+	color: whitesmoke;
+}
+
+.light {
+	background-color: white;
+	color: #282c34;
+}
+.App-link {
+	color: #09d3ac;
+}

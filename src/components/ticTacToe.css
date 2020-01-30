@@ -1,0 +1,70 @@
+body {
+	font: 14px "Century Gothic", Futura, sans-serif;
+	margin: 20px;
+}
+
+li {
+	background-color: #999;
+	text-align: center;
+}
+.btn-move {
+	width: 100%;
+}
+.btn-move:hover {
+	background-color: rgb(214, 216, 228);
+}
+
+.board-row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.status {
+	margin-bottom: 10px;
+}
+
+.square {
+	background-image: url("gameBackground.jpg");
+	background-size: cover;
+	background-color: #282c34;
+	border: 3px solid whitesmoke;
+	float: left;
+	color: whitesmoke;
+	font-size: 300%;
+	font-weight: bold;
+	text-shadow: 3px 3px #555050;
+	line-height: 34px;
+	height: 100px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
+	text-align: center;
+	width: 100px;
+}
+
+.square:focus {
+	outline: none;
+}
+
+/* .kbd-navigation .square:focus {
+	background: #ddd;
+} */
+
+.game {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.game-box {
+	box-shadow: 3px 3px 3px #999;
+}
+.game-info {
+	margin-left: 20px;
+	color: #999;
+	font-weight: bold;
+	font-size: 120%;
+	margin: 1rem;
+}
